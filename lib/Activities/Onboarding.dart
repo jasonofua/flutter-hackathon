@@ -16,7 +16,7 @@ class SplashScreenState extends State<Onboarding>{
     PageViewModel(
         pageColor: const Color(0xFF03A9F4),
         // iconImageAssetPath: 'assets/air-hostess.png',
-        bubble: Image.asset('assets/images/jsearch.png'),
+        bubble: Image.asset('assets/images/glass.png'),
         body: Padding(
           padding: const EdgeInsets.only(top: 10.0),
           child: Text(
@@ -25,7 +25,7 @@ class SplashScreenState extends State<Onboarding>{
         ),
         title: Text(
           'Job Alert',),
-        textStyle: TextStyle( color: Colors.white,fontSize: 10.0),
+        textStyle: TextStyle( color: Colors.white,fontSize: 30.0),
         mainImage: Image.asset(
           'assets/images/jobsearch.png',
           height: 400.0,
@@ -45,11 +45,11 @@ class SplashScreenState extends State<Onboarding>{
         width: 400.0,
         alignment: Alignment.center,
       ),
-      textStyle: TextStyle( color: Colors.white,fontSize: 10.0),
+      textStyle: TextStyle( color: Colors.white,fontSize: 30.0),
     ),
     PageViewModel(
       pageColor: const Color(0xFF607D8B),
-      iconImageAssetPath: 'assets/images/realon.png',
+      iconImageAssetPath: 'assets/images/smartphone.png',
       body: Text(
         'Get real time job updates you on the Go',
       ),
@@ -60,7 +60,7 @@ class SplashScreenState extends State<Onboarding>{
         width: 400.0,
         alignment: Alignment.center,
       ),
-      textStyle: TextStyle( color: Colors.white,fontSize: 10.0),
+      textStyle: TextStyle( color: Colors.white,fontSize: 30.0),
     ),
   ];
 
